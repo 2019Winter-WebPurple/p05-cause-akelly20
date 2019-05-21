@@ -1,0 +1,95 @@
+/*
+* Anna Kelly
+* 5/1/19
+* Girl Develop It
+*/
+
+/* the universal selector */
+
+* {margin: 0px;
+    padding: 0px;
+
+}
+
+/* Body properties here */
+
+body{ /* body properties */
+    background-color: lightpink;
+    font-family: "Arial", serif;
+    color:black;
+    margin: 10px;
+    padding: 20px;
+}
+
+img{ /* image properties */
+    height: 175px;
+    width: 175px;
+    border: 5px solid darkred;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px
+}
+
+main{ /* main section properties */
+     border-top: 10px solid darkred;
+    border-bottom: 10px solid darkred;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h1{ /* heading 1 properties */
+    color: darkred;
+    font-family:"Impact", fantasy;
+    font-size:450%;
+    text-align: center;
+     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+h2{ /* heading 2 properties */
+    color: darkred;
+    font-family: "Impact", fantasy;
+    font-size:150%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+footer{ /* footer properties */
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+p{ /* specific text properties */
+    margin: 10px;
+    padding: 5px;
+}
+
+ul { /* list properties */
+     margin: 20px;
+    padding: 10px;
+}
+
+a:link{ /* link properties */
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{ /* link properties */
+    color:darkred;
+    text-decoration:underline;
+    font-size:150%
+}
